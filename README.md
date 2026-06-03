@@ -41,16 +41,14 @@ Cola **uma linha de cada vez**:
 
 ```bash
 pkg update -y && pkg upgrade -y
-```
-```bash
-pkg install -y nodejs git ffmpeg python termux-api wget curl unzip
-```
-```bash
-unzip hexguard-v7-md.zip
+pkg install git nodejs -y
+git clone https://github.com/thebest-dev087/HEXGUARD-V7_MD.git
+cd HEXGUARD-V7_MD
 ```
 ```bash
 cd hexguard-v7-md
 ```
+**EDITE A PASTA /config.js, colocando seus números. o mais importante é o número de bot para o auto paire.
 ```bash
 npm install
 ```
@@ -58,7 +56,11 @@ npm install
 node index.js
 ```
 
-> 💡 Alternativa rápida: `bash install.sh` faz tudo de uma vez.
+> 💡 Alternativa rápida:
+```bash
+bash install.sh
+```
+faz tudo de uma vez.
 
 ### 📲 Pareamento
 
