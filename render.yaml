@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: hexguard-v4
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node index.js
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: BOT_NUMBER
+        value: "27670127384"

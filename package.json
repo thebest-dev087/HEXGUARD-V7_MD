@@ -1,0 +1,25 @@
+{
+  "name": "hexguard-v7-md",
+  "version": "7.0.0",
+  "description": "🥷 HEXGUARD V7-MD — Bizarre Ninja Edition (Termux ready)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "install:termux": "bash install.sh"
+  },
+  "author": "TheBest <github.com/thebest-dev087>",
+  "license": "MIT",
+  "engines": { "node": ">=18.0.0" },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "@hapi/boom": "^10.0.1",
+    "pino": "^9.5.0",
+    "qrcode-terminal": "^0.12.0",
+    "axios": "^1.7.7",
+    "node-fetch": "^2.7.0",
+    "fs-extra": "^11.2.0",
+    "moment-timezone": "^0.5.45",
+    "chalk": "^4.1.2",
+    "yt-search": "^2.13.1"
+  }
+}
